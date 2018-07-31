@@ -1,0 +1,14 @@
+.fake_item
+{
+  background-color: #c63131 !important;
+}
+
+.fake_items
+{
+  color: #c63131;
+}
+
+.no_fake_items
+{
+  color: #31c657;
+}

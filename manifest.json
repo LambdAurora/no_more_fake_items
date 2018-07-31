@@ -1,0 +1,13 @@
+{
+  "name": "No more fake items!",
+  "description": "TF2, CS:GO and Dota trading have a problem: fake items, now check your item easily, we won't be scammed anymore!",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://steamcommunity.com/id/*/tradeoffers/*", "https://steamcommunity.com/id/*/tradeoffers/sent/*"],
+      "js": ["main.js"],
+      "css": ["injected.css"]
+    }
+  ]
+}
