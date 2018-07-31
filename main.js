@@ -77,6 +77,9 @@ if (document.title.includes('Steam Community :: Trade Offers'))
         check_span.innerText = 'This trade doesn\'t contain any fake items!';
         check_span.classList.add('no_fake_items');
       }
+
+      check_select.disabled = true;
+      check_button.disabled = true;
     });
   });
 }
